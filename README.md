@@ -52,7 +52,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 ```
 
 * Template: Setup the output template to include "TenantIdentifier" at the appropriate place. TenantIdentifier will be replaced with the actual tenant resolved in the middleware per request.
-
+```
   "Serilog": {
     "MinimumLevel": "Information",
     "WriteTo": [
@@ -64,6 +64,8 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
       }
     ]
   }
+```
+
 ### **Middleware for logging**
 
 * Middleware: The middleware uses Serilog's LogContext to inject the"TenantIdentifier" property on each request.
