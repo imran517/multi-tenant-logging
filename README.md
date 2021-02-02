@@ -1,6 +1,6 @@
 # multi-tenant-logging
 
-MultiTenant logging is a sample project that shows how to log Tenant information with each log entry while usinh Finbuckle and serlog.
+MultiTenant logging is a sample project that shows how to log Tenant information with each log entry while using Finbuckle and serlog.
 
 ## Dependencies
 
