@@ -88,7 +88,7 @@ public static IApplicationBuilder UseMultiTenantLogging(this IApplicationBuilder
     return builder.UseMiddleware<MultiTenantLoggingMiddleware>();
 }
 ```
-* Middleware Usage: Finnaly, just use the middleware in Configure method of Startup.cs
+* Middleware Usage: Finally, just use the middleware in the Configure method of Startup.cs
 
 ```
  app.UseMultiTenantLogging();
