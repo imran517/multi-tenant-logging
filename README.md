@@ -66,7 +66,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
   }
 ```
 
-### **Middleware for logging**
+### **Middleware for Logging**
 
 * Middleware: The middleware uses Serilog's LogContext to inject the"TenantIdentifier" property on each request.
 
@@ -93,3 +93,5 @@ public static IApplicationBuilder UseMultiTenantLogging(this IApplicationBuilder
 ```
  app.UseMultiTenantLogging();
 ```
+### **Check Logs**
+Check your log entries and you will see the [sample-tenant-1] on each log entry whenever it is available.
