@@ -1,6 +1,6 @@
 # multi-tenant-logging
 
-MultiTenant logging is a sample project that shows how to log Tenant information with each log entry while using Finbuckle and Serilog.
+MultiTenant logging is a sample project (ASP.Net Core 5) that shows how to log Tenant information with each log entry while using Finbuckle and Serilog.
 
 ## Dependencies
 
